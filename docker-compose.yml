@@ -8,7 +8,7 @@ services:
         volumes:
             - app:/tmp
 
-    dep_war:build: 
+    dep_war: 
         image: tomcat:9-jdk11
         ports:
             - '8080:8080'
