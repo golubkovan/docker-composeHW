@@ -14,7 +14,8 @@ services:
             - '8080:8080'
         volumes:
             - app:/usr/local/tomcat/webapps
-        depends_on: build_war
+        depends_on: 
+            - build_war
 
 volumes:
     app:
