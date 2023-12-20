@@ -9,7 +9,7 @@ services:
             - app:/tmp
 
     dep_war: 
-        image: tomcat:9-jdk11
+        image: tomcat:9.0.84-jre8-temurin-focal
         ports:
             - '8080:8080'
         volumes:
